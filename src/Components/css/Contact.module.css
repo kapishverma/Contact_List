@@ -1,0 +1,53 @@
+.container {
+    max-width: 100%;
+    height: 55px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 0 15px 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 2px;
+    transition: all 0.1s linear;
+}
+.container:hover{
+    transform: scaleX(1.01);
+    box-shadow: 0 0 10px 4px black;
+}
+.contactInfo {
+    min-width: 75%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: deepskyblue;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding-top: 6px;
+}
+
+.edit {
+    height: 30px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    padding: 0 3px;
+}
+
+.edit .active {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit i {
+    cursor: pointer;
+}
