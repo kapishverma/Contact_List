@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+> # [Contact List](https://react-contact-list-using-redux.onrender.com/ "Want to try? Hit this link")
+![](media/1.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Welcome to the Contact List App, a sophisticated application built using React.js and Redux Toolkit. This powerful combination allows you to effortlessly perform CRUD operations on your contacts, offering an intuitive way to manage your contact list effectively.**
 
-## Available Scripts
+>## Key Features
+* **Create:** Generate new contacts with ease and seamlessly integrate them into your list.
+* **Read:** Access a comprehensive overview of contacts stored in our simulated database.
+* **Update:** Effortlessly modify existing contact details to keep your list accurate.
+* **Delete:** Remove unnecessary contacts from your list, maintaining its relevance.
 
-In the project directory, you can run:
+>## Getting Started
+When the page loads, the dispatch(getInitialContactsList()) function is automatically triggered, fetching and displaying the initial contacts.
 
-### `npm start`
+  ---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+>## Contact List
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+On the left side of the page, you'll find an organized list of all your contacts. This interface empowers you to manage your contacts effortlessly by deleting them or initiating edits.
 
-### `npm test`
+---
+>## Contact Page
+The right side of the page features an intuitive form designed to facilitate two core actions:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Add New Contact:** Input a contact's name and phone number seamlessly, creating a new entry in your list.
 
-### `npm run build`
+* **Update Contact:** Easily edit the details of existing contacts using the same form.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A sample UI element on this page provides a visual representation, displaying the contact's name and phone number.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+>## Framework and Technology
+This Contact List App is meticulously crafted using React.js, a widely adopted JavaScript library for building user interfaces. The state management is powered by Redux Toolkit, ensuring efficient data handling and seamless updates.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+>## Folder Structure
+* **node_modules**
+* **public**
+  * **index.html**
+* **src**
+   * **Components**
+      * **css**
+         * **CallPage.module.css**
+         * **Contact.module.css**
+         * **ContactsList.module.css**
+      * **callPage.jsx**
+      * **Contact.jsx**
+      * **ContactsList.jsx**
+      * **Form.jsx**
+   * **image**
+      * **...**
+   * **Redux**
+      * **Reducers**
+         * **contactPageReducer.js**
+         * **ContactsListReducers**
+      * **Selectors.js**
+      * **Store.js**
+   * **App.js**
+   * **index.css**
+   * **index.js**
+* **package.json**
